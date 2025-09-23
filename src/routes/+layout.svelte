@@ -1,6 +1,6 @@
 <script lang="ts">
   import favicon from '$lib/assets/favicon.svg';
-  import '../app.css';
+  import '../styles/main.css';
 
   let { children } = $props();
 </script>
@@ -11,3 +11,7 @@
 </svelte:head>
 
 {@render children?.()}
+
+<style lang="postcss">
+  @reference "tailwindcss";
+</style>

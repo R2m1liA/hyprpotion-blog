@@ -1,0 +1,31 @@
+@theme {
+  /* 基本 light / dark 背景与文字 */
+  --color-light: oklch(0.98 0.02 90); /* 浅色背景，大约接近白但稍有暖调 */
+  --color-dark: oklch(0.12 0.02 10); /* 暗色背景，接近黑 */
+
+  /* 文字颜色 */
+  --color-text-light: oklch(0.2 0.04 15); /* 浅色模式下正文文字颜色（深灰） */
+  --color-text-dark: oklch(0.9 0.05 120); /* 暗色模式下正文文字颜色（浅灰） */
+
+  /* 链接／强调色 */
+  --color-link-light: oklch(0.55 0.25 220); /* 蓝调强调色在浅色模式 */
+  --color-link-dark: oklch(0.65 0.35 200); /* 暗色模式下链接稍微偏亮 */
+
+  /* 次要／边框色／分隔线色 */
+  --color-border-light: oklch(0.8 0.02 90); /* 浅色模式下边框／线条 */
+  --color-border-dark: oklch(0.3 0.03 20); /* 暗色模式下边框 */
+
+  /* 强调／标题色 */
+  --color-heading-light: oklch(
+    0.1 0.15 40
+  ); /* 浅色模式标题蓝／稍饱和，用以区分正文 */
+  --color-heading-dark: oklch(0.8 0.2 50); /* 暗色模式标题色 */
+
+  /* 其他可选变量 */
+  --color-code-bg-light: oklch(0.95 0.03 90); /* 代码块背景 浅色模式 */
+  --color-code-bg-dark: oklch(0.2 0.04 10); /* 代码块背景 暗色模式 */
+
+  /* 可选 accent 色 (比如按钮 /强调背景) */
+  --color-accent-light: oklch(0.6 0.3 200);
+  --color-accent-dark: oklch(0.7 0.4 210);
+}
